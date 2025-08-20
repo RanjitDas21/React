@@ -17,7 +17,8 @@ function App() {
       <Card userid="chaiaurcode" btnText="Visit me"/>
       <br/>
       <Card userid="ranjit123" btnText="Click me"/>
-      <Card2 userid="ranjitdas"></Card2>
+      <br/>
+      <Card2 userid="ranjitdas"/>
     </>
   )
 }
