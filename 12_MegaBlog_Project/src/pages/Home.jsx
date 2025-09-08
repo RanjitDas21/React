@@ -16,15 +16,10 @@ function Home() {
   
     if (posts.length === 0) {
         return (
-            <div className="w-full py-8 mt-4 text-center">
+            <div className="flex-grow max-w-7xl mx-auto px-6 py-12">
                 <Container>
-                    <div className="flex flex-wrap">
-                        <div className="p-2 w-full">
-                            <h1 className="text-2xl font-bold hover:text-gray-500">
-                                Login to read posts
-                            </h1>
-                        </div>
-                    </div>
+                            <h2 className="text-3xl font-semibold text-gray-800 py-6">Welcome 👋</h2>
+                            <p className="text-2xl text-gray-600">Login to reads post</p>
                 </Container>
             </div>
         )
