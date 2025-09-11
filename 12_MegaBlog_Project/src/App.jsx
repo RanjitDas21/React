@@ -27,7 +27,7 @@ function App() {
     <div className='flex flex-wrap'>
       <div className='w-full block'>
         <Header />
-        <main>
+        <main className='h-[91vh]'>
           <Outlet />
         </main>
         <Footer />
